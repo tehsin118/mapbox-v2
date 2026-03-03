@@ -9,7 +9,7 @@ export default function LogisticsPlan() {
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Background */}
-      <rect x="0" y="0" width="800" height="600" fill="#FAFAFA" />
+      <rect x="0" y="0" width="800" height="600" fill="#070C14" />
       <rect
         x="40"
         y="30"
@@ -17,26 +17,26 @@ export default function LogisticsPlan() {
         height="540"
         rx="4"
         fill="none"
-        stroke="#D1D5DB"
+        stroke="rgba(0, 212, 180, 0.25)"
         strokeWidth="1.5"
         strokeDasharray="8 4"
       />
 
       {/* Perimeter Road — Bottom */}
-      <rect x="40" y="540" width="720" height="30" fill="#E5E7EB" rx="2" />
+      <rect x="40" y="540" width="720" height="30" fill="#0D1625" rx="2" />
       <text
         x="400"
         y="560"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="14"
       >
         INDUSTRIAL ACCESS ROAD
       </text>
 
       {/* Perimeter Road — Right */}
-      <rect x="730" y="30" width="30" height="510" fill="#E5E7EB" rx="2" />
+      <rect x="730" y="30" width="30" height="510" fill="#0D1625" rx="2" />
 
       {/* Security Gate */}
       <rect
@@ -45,17 +45,17 @@ export default function LogisticsPlan() {
         width="120"
         height="25"
         rx="4"
-        fill="#FEE2E2"
-        stroke="#F87171"
+        fill="rgba(232, 169, 64, 0.15)"
+        stroke="#E8A940"
         strokeWidth="1"
       />
       <text
         x="400"
         y="527"
         textAnchor="middle"
-        fill="#DC2626"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         SECURITY GATE
@@ -68,17 +68,17 @@ export default function LogisticsPlan() {
         width="100"
         height="25"
         rx="4"
-        fill="#FEF3C7"
-        stroke="#FCD34D"
+        fill="rgba(0, 212, 180, 0.12)"
+        stroke="#00D4B4"
         strokeWidth="1"
       />
       <text
         x="520"
         y="527"
         textAnchor="middle"
-        fill="#D97706"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         WEIGH BRIDGE
@@ -91,8 +91,8 @@ export default function LogisticsPlan() {
         width="480"
         height="200"
         rx="6"
-        fill="#F97316"
-        opacity="0.8"
+        fill="#00D4B4"
+        opacity="0.2"
       />
       <rect
         x="120"
@@ -101,16 +101,16 @@ export default function LogisticsPlan() {
         height="200"
         rx="6"
         fill="none"
-        stroke="#EA580C"
+        stroke="#00D4B4"
         strokeWidth="2"
       />
       <text
         x="360"
         y="245"
         textAnchor="middle"
-        fill="white"
+        fill="#EDF2F8"
         fontFamily="Inter, sans-serif"
-        fontSize="16"
+        fontSize="22"
         fontWeight="600"
       >
         MAIN WAREHOUSE
@@ -119,9 +119,9 @@ export default function LogisticsPlan() {
         x="360"
         y="268"
         textAnchor="middle"
-        fill="white"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="14"
         opacity="0.85"
       >
         45,000 sqft — Cold Chain & Automated Sorting
@@ -130,9 +130,9 @@ export default function LogisticsPlan() {
         x="360"
         y="285"
         textAnchor="middle"
-        fill="white"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         opacity="0.7"
       >
         Clear Height: 12m · Fire Rating: 2hr
@@ -144,9 +144,9 @@ export default function LogisticsPlan() {
           x="360"
           y="140"
           textAnchor="middle"
-          fill="#EA580C"
+          fill="#00D4B4"
           fontFamily="Inter, sans-serif"
-          fontSize="10"
+          fontSize="14"
           fontWeight="600"
         >
           NORTH LOADING DOCKS — 18 BAYS
@@ -159,8 +159,8 @@ export default function LogisticsPlan() {
             width="20"
             height="12"
             rx="1"
-            fill="#EA580C"
-            opacity="0.7"
+            fill="#00D4B4"
+            opacity="0.5"
           />
         ))}
       </g>
@@ -175,17 +175,17 @@ export default function LogisticsPlan() {
             width="20"
             height="12"
             rx="1"
-            fill="#EA580C"
-            opacity="0.7"
+            fill="#00D4B4"
+            opacity="0.5"
           />
         ))}
         <text
           x="360"
           y="388"
           textAnchor="middle"
-          fill="#EA580C"
+          fill="#00D4B4"
           fontFamily="Inter, sans-serif"
-          fontSize="10"
+          fontSize="14"
           fontWeight="600"
         >
           SOUTH LOADING DOCKS — 18 BAYS
@@ -197,22 +197,22 @@ export default function LogisticsPlan() {
       <path
         d="M 400 510 L 400 400 L 90 400 L 90 120 L 400 120 L 620 120 L 620 400 L 400 400"
         fill="none"
-        stroke="#F59E0B"
+        stroke="#E8A940"
         strokeWidth="2"
         strokeDasharray="8 4"
       />
       {/* Direction arrows on truck path */}
-      <polygon points="400,480 394,490 406,490" fill="#F59E0B" />
-      <polygon points="90,250 84,260 96,260" fill="#F59E0B" />
-      <polygon points="350,120 360,114 360,126" fill="#F59E0B" />
-      <polygon points="620,300 614,290 626,290" fill="#F59E0B" />
+      <polygon points="400,480 394,490 406,490" fill="#E8A940" />
+      <polygon points="90,250 84,260 96,260" fill="#E8A940" />
+      <polygon points="350,120 360,114 360,126" fill="#E8A940" />
+      <polygon points="620,300 614,290 626,290" fill="#E8A940" />
 
       <text
         x="100"
         y="270"
-        fill="#D97706"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
         transform="rotate(-90,94,280)"
       >
         TRUCK PATH
@@ -220,9 +220,9 @@ export default function LogisticsPlan() {
       <text
         x="570"
         y="275"
-        fill="#D97706"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
         transform="rotate(90,620,280)"
       >
         TRUCK PATH
@@ -235,17 +235,17 @@ export default function LogisticsPlan() {
         width="80"
         height="300"
         rx="4"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.25)"
         strokeWidth="1"
       />
       <text
-        x="715"
+        x="725"
         y="380"
         textAnchor="end"
-        fill="#6B7280"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
         transform="rotate(0,680,200)"
       >
@@ -260,8 +260,8 @@ export default function LogisticsPlan() {
           width="60"
           height="16"
           rx="2"
-          fill="#E5E7EB"
-          stroke="#D1D5DB"
+          fill="#0D1625"
+          stroke="rgba(0, 212, 180, 0.2)"
           strokeWidth="0.5"
         />
       ))}
@@ -273,8 +273,8 @@ export default function LogisticsPlan() {
         width="160"
         height="70"
         rx="4"
-        fill="#3B82F6"
-        opacity="0.8"
+        fill="#00D4B4"
+        opacity="0.15"
       />
       <rect
         x="120"
@@ -283,16 +283,16 @@ export default function LogisticsPlan() {
         height="70"
         rx="4"
         fill="none"
-        stroke="#2563EB"
+        stroke="#00D4B4"
         strokeWidth="1.5"
       />
       <text
         x="200"
         y="80"
         textAnchor="middle"
-        fill="white"
+        fill="#EDF2F8"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="14"
         fontWeight="600"
       >
         ADMIN / OFFICE
@@ -301,9 +301,9 @@ export default function LogisticsPlan() {
         x="200"
         y="100"
         textAnchor="middle"
-        fill="white"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
         opacity="0.8"
       >
         Operations & Control Room
@@ -316,17 +316,17 @@ export default function LogisticsPlan() {
         width="130"
         height="70"
         rx="4"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.2)"
         strokeWidth="1"
       />
       <text
         x="375"
         y="80"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         EMPLOYEE PARKING
@@ -335,9 +335,9 @@ export default function LogisticsPlan() {
         x="375"
         y="100"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         80 Bays
       </text>
@@ -349,17 +349,17 @@ export default function LogisticsPlan() {
         width="130"
         height="70"
         rx="4"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.2)"
         strokeWidth="1"
       />
       <text
         x="535"
         y="80"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         VISITOR PARKING
@@ -368,9 +368,9 @@ export default function LogisticsPlan() {
         x="535"
         y="100"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         24 Bays
       </text>
@@ -382,17 +382,17 @@ export default function LogisticsPlan() {
         width="200"
         height="110"
         rx="4"
-        fill="#FFF7ED"
-        stroke="#FDBA74"
+        fill="rgba(232, 169, 64, 0.08)"
+        stroke="#E8A940"
         strokeWidth="1"
       />
       <text
         x="220"
         y="445"
         textAnchor="middle"
-        fill="#EA580C"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="14"
         fontWeight="500"
       >
         CONTAINER YARD
@@ -401,9 +401,9 @@ export default function LogisticsPlan() {
         x="220"
         y="462"
         textAnchor="middle"
-        fill="#F97316"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         Temporary Storage
       </text>
@@ -417,8 +417,8 @@ export default function LogisticsPlan() {
             width="35"
             height="8"
             rx="1"
-            fill="#FDBA74"
-            opacity="0.4"
+            fill="#E8A940"
+            opacity="0.3"
           />
         )),
       )}
@@ -430,17 +430,17 @@ export default function LogisticsPlan() {
         width="120"
         height="60"
         rx="4"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.2)"
         strokeWidth="1"
       />
       <text
         x="410"
         y="448"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         FUEL STATION
@@ -449,9 +449,9 @@ export default function LogisticsPlan() {
         x="410"
         y="464"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         Diesel & AdBlue
       </text>
@@ -463,17 +463,17 @@ export default function LogisticsPlan() {
         width="100"
         height="60"
         rx="4"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.2)"
         strokeWidth="1"
       />
       <text
         x="550"
         y="448"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         TRUCK WASH
@@ -482,9 +482,9 @@ export default function LogisticsPlan() {
         x="550"
         y="464"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         2 Lanes
       </text>
@@ -509,12 +509,12 @@ export default function LogisticsPlan() {
 
       {/* ONE WAY labels */}
       <text
-        x="115"
+        x="125"
         y="395"
         textAnchor="middle"
-        fill="#D97706"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="7"
+        fontSize="10"
         fontWeight="600"
       >
         ONE WAY ↑
@@ -523,9 +523,9 @@ export default function LogisticsPlan() {
         x="590"
         y="130"
         textAnchor="middle"
-        fill="#D97706"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="7"
+        fontSize="10"
         fontWeight="600"
       >
         ONE WAY ↓
@@ -533,14 +533,14 @@ export default function LogisticsPlan() {
 
       {/* North Arrow */}
       <g transform="translate(730, 560)">
-        <polygon points="0,-18 -6,0 6,0" fill="#9CA3AF" />
+        <polygon points="0,-18 -6,0 6,0" fill="#fff" />
         <text
           x="0"
           y="12"
           textAnchor="middle"
-          fill="#9CA3AF"
+          fill="#fff"
           fontFamily="Inter, sans-serif"
-          fontSize="9"
+          fontSize="12"
           fontWeight="600"
         >
           N
@@ -553,7 +553,7 @@ export default function LogisticsPlan() {
         y1="570"
         x2="180"
         y2="570"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <line
@@ -561,7 +561,7 @@ export default function LogisticsPlan() {
         y1="565"
         x2="80"
         y2="575"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <line
@@ -569,16 +569,16 @@ export default function LogisticsPlan() {
         y1="565"
         x2="180"
         y2="575"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <text
         x="130"
         y="582"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#fff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         100m
       </text>

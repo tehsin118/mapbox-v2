@@ -9,7 +9,7 @@ export default function AviationPlan() {
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Background */}
-      <rect x="0" y="0" width="800" height="600" fill="#FAFAFA" />
+      <rect x="0" y="0" width="800" height="600" fill="#070C14" />
       <rect
         x="40"
         y="30"
@@ -17,29 +17,29 @@ export default function AviationPlan() {
         height="540"
         rx="4"
         fill="none"
-        stroke="#D1D5DB"
+        stroke="rgba(0, 212, 180, 0.25)"
         strokeWidth="1.5"
         strokeDasharray="8 4"
       />
 
       {/* Perimeter Roads */}
-      <rect x="40" y="540" width="720" height="30" fill="#E5E7EB" rx="2" />
+      <rect x="40" y="540" width="720" height="30" fill="#0D1625" rx="2" />
       <text
         x="400"
         y="560"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
         fontSize="10"
       >
         AVIATION BOULEVARD
       </text>
-      <rect x="730" y="30" width="30" height="540" fill="#E5E7EB" rx="2" />
+      <rect x="730" y="30" width="30" height="540" fill="#0D1625" rx="2" />
       <text
         x="745"
         y="300"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
         fontSize="10"
         transform="rotate(90, 745, 300)"
@@ -54,8 +54,8 @@ export default function AviationPlan() {
         width="40"
         height="510"
         rx="3"
-        fill="#D1FAE5"
-        stroke="#6EE7B7"
+        fill="rgba(0, 212, 180, 0.08)"
+        stroke="rgba(0, 212, 180, 0.3)"
         strokeWidth="0.5"
       />
       {[80, 130, 180, 230, 280, 330, 380, 430, 480].map((y) => (
@@ -64,8 +64,8 @@ export default function AviationPlan() {
           cx="60"
           cy={y}
           r="10"
-          fill="#A7F3D0"
-          stroke="#6EE7B7"
+          fill="rgba(0, 212, 180, 0.15)"
+          stroke="#00D4B4"
           strokeWidth="0.5"
         />
       ))}
@@ -77,8 +77,8 @@ export default function AviationPlan() {
         width="650"
         height="35"
         rx="3"
-        fill="#D1FAE5"
-        stroke="#6EE7B7"
+        fill="rgba(0, 212, 180, 0.08)"
+        stroke="rgba(0, 212, 180, 0.3)"
         strokeWidth="0.5"
       />
 
@@ -89,8 +89,8 @@ export default function AviationPlan() {
         width="180"
         height="200"
         rx="6"
-        fill="#8B5CF6"
-        opacity="0.85"
+        fill="#00D4B4"
+        opacity="0.2"
       />
       <rect
         x="120"
@@ -99,14 +99,14 @@ export default function AviationPlan() {
         height="200"
         rx="6"
         fill="none"
-        stroke="#7C3AED"
+        stroke="#00D4B4"
         strokeWidth="2"
       />
       <text
         x="210"
         y="175"
         textAnchor="middle"
-        fill="white"
+        fill="#EDF2F8"
         fontFamily="Inter, sans-serif"
         fontSize="14"
         fontWeight="600"
@@ -117,7 +117,7 @@ export default function AviationPlan() {
         x="210"
         y="195"
         textAnchor="middle"
-        fill="white"
+        fill="#EDF2F8"
         fontFamily="Inter, sans-serif"
         fontSize="14"
         fontWeight="600"
@@ -128,9 +128,9 @@ export default function AviationPlan() {
         x="210"
         y="218"
         textAnchor="middle"
-        fill="white"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         opacity="0.8"
       >
         15 Floors · 18,000 sqft
@@ -139,18 +139,18 @@ export default function AviationPlan() {
       {/* Retail Podium */}
       <rect
         x="120"
-        y="290"
+        y="300"
         width="180"
         height="50"
         rx="4"
-        fill="#7C3AED"
-        opacity="0.6"
+        fill="#00D4B4"
+        opacity="0.15"
       />
       <text
         x="210"
-        y="315"
+        y="325"
         textAnchor="middle"
-        fill="white"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
         fontSize="10"
         fontWeight="500"
@@ -159,11 +159,11 @@ export default function AviationPlan() {
       </text>
       <text
         x="210"
-        y="330"
+        y="340"
         textAnchor="middle"
-        fill="white"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
         opacity="0.7"
       >
         Ground-Level Shops & F&B
@@ -176,15 +176,15 @@ export default function AviationPlan() {
         width="200"
         height="250"
         rx="8"
-        fill="#EDE9FE"
-        stroke="#C4B5FD"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.3)"
         strokeWidth="1"
       />
       <text
         x="440"
         y="140"
         textAnchor="middle"
-        fill="#6D28D9"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
         fontSize="12"
         fontWeight="600"
@@ -195,9 +195,9 @@ export default function AviationPlan() {
         x="440"
         y="158"
         textAnchor="middle"
-        fill="#7C3AED"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         opacity="0.8"
       >
         Public Open Space
@@ -208,15 +208,15 @@ export default function AviationPlan() {
         cx="440"
         cy="210"
         r="25"
-        fill="#DDD6FE"
-        stroke="#C4B5FD"
+        fill="rgba(0, 212, 180, 0.12)"
+        stroke="#00D4B4"
         strokeWidth="1"
       />
       <text
         x="440"
         y="214"
         textAnchor="middle"
-        fill="#7C3AED"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
         fontSize="7"
       >
@@ -236,7 +236,7 @@ export default function AviationPlan() {
           width="30"
           height="12"
           rx="6"
-          fill="#C4B5FD"
+          fill="rgba(0, 212, 180, 0.2)"
           opacity="0.5"
         />
       ))}
@@ -244,9 +244,9 @@ export default function AviationPlan() {
         x="440"
         y="310"
         textAnchor="middle"
-        fill="#7C3AED"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
         opacity="0.7"
       >
         Seating & Water Features
@@ -258,7 +258,7 @@ export default function AviationPlan() {
         y1="200"
         x2="540"
         y2="200"
-        stroke="#F59E0B"
+        stroke="#E8A940"
         strokeWidth="1"
         strokeDasharray="4 3"
       />
@@ -267,7 +267,7 @@ export default function AviationPlan() {
         y1="90"
         x2="440"
         y2="340"
-        stroke="#F59E0B"
+        stroke="#E8A940"
         strokeWidth="1"
         strokeDasharray="4 3"
       />
@@ -279,15 +279,15 @@ export default function AviationPlan() {
         width="420"
         height="45"
         rx="4"
-        fill="#FEF3C7"
-        stroke="#FCD34D"
+        fill="rgba(232, 169, 64, 0.12)"
+        stroke="#E8A940"
         strokeWidth="1"
       />
       <text
         x="330"
         y="380"
         textAnchor="middle"
-        fill="#D97706"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
         fontSize="10"
         fontWeight="500"
@@ -298,9 +298,9 @@ export default function AviationPlan() {
         x="330"
         y="394"
         textAnchor="middle"
-        fill="#D97706"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
         opacity="0.7"
       >
         Covered Passenger Waiting Area
@@ -313,15 +313,15 @@ export default function AviationPlan() {
         width="140"
         height="315"
         rx="6"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.25)"
         strokeWidth="1"
       />
       <text
         x="650"
         y="125"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
         fontSize="11"
         fontWeight="600"
@@ -332,7 +332,7 @@ export default function AviationPlan() {
         x="650"
         y="142"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
         fontSize="11"
         fontWeight="600"
@@ -343,9 +343,9 @@ export default function AviationPlan() {
         x="650"
         y="162"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
       >
         4 Levels · 480 Bays
       </text>
@@ -359,15 +359,15 @@ export default function AviationPlan() {
             width="100"
             height="35"
             rx="3"
-            fill="#E5E7EB"
+            fill="#0D1625"
           />
           <text
             x="650"
             y={212 + i * 50}
             textAnchor="middle"
-            fill="#6B7280"
+            fill="#ffffffa3"
             fontFamily="Inter, sans-serif"
-            fontSize="9"
+            fontSize="12"
             fontWeight="500"
           >
             {level} — 120 bays
@@ -382,17 +382,17 @@ export default function AviationPlan() {
         width="600"
         height="35"
         rx="3"
-        fill="#E5E7EB"
-        stroke="#D1D5DB"
+        fill="#0D1625"
+        stroke="rgba(0, 212, 180, 0.2)"
         strokeWidth="0.5"
       />
       <text
         x="420"
         y="442"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
       >
         SERVICE & LOADING DOCK ACCESS ROAD
       </text>
@@ -404,17 +404,17 @@ export default function AviationPlan() {
         width="150"
         height="65"
         rx="4"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.2)"
         strokeWidth="1"
       />
       <text
         x="195"
         y="490"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         LOADING DOCK
@@ -423,9 +423,9 @@ export default function AviationPlan() {
         x="195"
         y="505"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         3 Bays
       </text>
@@ -434,37 +434,37 @@ export default function AviationPlan() {
       <rect
         x="290"
         y="460"
-        width="130"
+        width="150"
         height="65"
         rx="4"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.2)"
         strokeWidth="1"
       />
       <text
-        x="355"
+        x="365"
         y="490"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="9"
+        fontSize="12"
         fontWeight="500"
       >
         MEP / SERVICES
       </text>
       <text
-        x="355"
+        x="365"
         y="505"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         Transformer & Generator
       </text>
 
       {/* Emergency Vehicle Zones */}
-      {[
+      {/* {[
         { x: 100, y: 190 },
         { x: 550, y: 190 },
         { x: 330, y: 528 },
@@ -484,24 +484,24 @@ export default function AviationPlan() {
             textAnchor="middle"
             fill="#DC2626"
             fontFamily="Inter, sans-serif"
-            fontSize="8"
+            fontSize="11"
             fontWeight="600"
           >
             E
           </text>
         </g>
-      ))}
+      ))} */}
 
       {/* North Arrow */}
       <g transform="translate(730, 560)">
-        <polygon points="0,-18 -6,0 6,0" fill="#9CA3AF" />
+        <polygon points="0,-18 -6,0 6,0" fill="#ffffffa3" />
         <text
           x="0"
           y="12"
           textAnchor="middle"
-          fill="#9CA3AF"
+          fill="#ffffffa3"
           fontFamily="Inter, sans-serif"
-          fontSize="9"
+          fontSize="12"
           fontWeight="600"
         >
           N
@@ -514,7 +514,7 @@ export default function AviationPlan() {
         y1="570"
         x2="180"
         y2="570"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <line
@@ -522,7 +522,7 @@ export default function AviationPlan() {
         y1="565"
         x2="80"
         y2="575"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <line
@@ -530,16 +530,16 @@ export default function AviationPlan() {
         y1="565"
         x2="180"
         y2="575"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <text
         x="130"
         y="582"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="11"
       >
         50m
       </text>

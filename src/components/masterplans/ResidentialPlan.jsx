@@ -9,7 +9,7 @@ export default function ResidentialPlan() {
       xmlns="http://www.w3.org/2000/svg"
     >
       {/* Background / Site Boundary */}
-      <rect x="0" y="0" width="800" height="600" fill="#FAFAFA" />
+      <rect x="0" y="0" width="800" height="600" fill="#070C14" />
       <rect
         x="40"
         y="30"
@@ -17,33 +17,33 @@ export default function ResidentialPlan() {
         height="540"
         rx="4"
         fill="none"
-        stroke="#D1D5DB"
+        stroke="rgba(0, 212, 180, 0.25)"
         strokeWidth="1.5"
         strokeDasharray="8 4"
       />
 
       {/* Access Roads */}
-      <rect x="40" y="540" width="720" height="30" fill="#E5E7EB" rx="2" />
+      <rect x="40" y="540" width="720" height="30" fill="#0D1625" rx="2" />
       <text
         x="400"
         y="560"
         textAnchor="middle"
         className="text-[10px]"
-        fill="#9CA3AF"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="12"
       >
         MAIN ACCESS ROAD
       </text>
-      <rect x="40" y="30" width="30" height="540" fill="#E5E7EB" rx="2" />
+      <rect x="40" y="30" width="30" height="540" fill="#0D1625" rx="2" />
       <text
         x="55"
         y="300"
         textAnchor="middle"
         className="text-[10px]"
-        fill="#9CA3AF"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="12"
         transform="rotate(-90, 55, 300)"
       >
         SERVICE ROAD
@@ -57,28 +57,28 @@ export default function ResidentialPlan() {
         width="280"
         height="80"
         rx="6"
-        fill="#D1FAE5"
-        stroke="#6EE7B7"
+        fill="rgba(0, 212, 180, 0.08)"
+        stroke="rgba(0, 212, 180, 0.3)"
         strokeWidth="1"
       />
       <text
         x="240"
-        y="95"
+        y="105"
         textAnchor="middle"
-        fill="#059669"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="12"
         fontWeight="500"
       >
         NORTH GARDEN
       </text>
       <text
         x="240"
-        y="110"
+        y="120"
         textAnchor="middle"
-        fill="#059669"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
         opacity="0.7"
       >
         Landscaped Green Area
@@ -90,8 +90,8 @@ export default function ResidentialPlan() {
           cx={cx}
           cy="75"
           r="8"
-          fill="#A7F3D0"
-          stroke="#6EE7B7"
+          fill="rgba(0, 212, 180, 0.15)"
+          stroke="#00D4B4"
           strokeWidth="0.5"
         />
       ))}
@@ -103,17 +103,17 @@ export default function ResidentialPlan() {
         width="280"
         height="80"
         rx="6"
-        fill="#D1FAE5"
-        stroke="#6EE7B7"
+        fill="rgba(0, 212, 180, 0.08)"
+        stroke="rgba(0, 212, 180, 0.3)"
         strokeWidth="1"
       />
       <text
         x="240"
         y="465"
         textAnchor="middle"
-        fill="#059669"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="12"
         fontWeight="500"
       >
         SOUTH GARDEN
@@ -122,9 +122,9 @@ export default function ResidentialPlan() {
         x="240"
         y="480"
         textAnchor="middle"
-        fill="#059669"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
         opacity="0.7"
       >
         Children's Play Area
@@ -135,8 +135,8 @@ export default function ResidentialPlan() {
           cx={cx}
           cy="495"
           r="8"
-          fill="#A7F3D0"
-          stroke="#6EE7B7"
+          fill="rgba(0, 212, 180, 0.15)"
+          stroke="#00D4B4"
           strokeWidth="0.5"
         />
       ))}
@@ -148,8 +148,8 @@ export default function ResidentialPlan() {
         width="120"
         height="120"
         rx="4"
-        fill="#3B82F6"
-        opacity="0.85"
+        fill="#00D4B4"
+        opacity="0.2"
       />
       <rect
         x="120"
@@ -158,14 +158,14 @@ export default function ResidentialPlan() {
         height="120"
         rx="4"
         fill="none"
-        stroke="#2563EB"
+        stroke="#00D4B4"
         strokeWidth="1.5"
       />
       <text
         x="180"
         y="225"
         textAnchor="middle"
-        fill="white"
+        fill="#EDF2F8"
         fontFamily="Inter, sans-serif"
         fontSize="12"
         fontWeight="600"
@@ -176,9 +176,9 @@ export default function ResidentialPlan() {
         x="180"
         y="242"
         textAnchor="middle"
-        fill="white"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
         opacity="0.8"
       >
         35 Floors · 124 Units
@@ -191,8 +191,8 @@ export default function ResidentialPlan() {
         width="120"
         height="120"
         rx="4"
-        fill="#3B82F6"
-        opacity="0.85"
+        fill="#00D4B4"
+        opacity="0.2"
       />
       <rect
         x="260"
@@ -201,14 +201,14 @@ export default function ResidentialPlan() {
         height="120"
         rx="4"
         fill="none"
-        stroke="#2563EB"
+        stroke="#00D4B4"
         strokeWidth="1.5"
       />
       <text
         x="320"
         y="225"
         textAnchor="middle"
-        fill="white"
+        fill="#EDF2F8"
         fontFamily="Inter, sans-serif"
         fontSize="12"
         fontWeight="600"
@@ -219,9 +219,9 @@ export default function ResidentialPlan() {
         x="320"
         y="242"
         textAnchor="middle"
-        fill="white"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
         opacity="0.8"
       >
         35 Floors · 124 Units
@@ -234,16 +234,16 @@ export default function ResidentialPlan() {
         width="190"
         height="50"
         rx="4"
-        fill="#1D4ED8"
-        opacity="0.8"
+        fill="#00D4B4"
+        opacity="0.15"
       />
       <text
         x="250"
         y="335"
         textAnchor="middle"
-        fill="white"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="12"
         fontWeight="500"
       >
         MAIN LOBBY & DROP-OFF
@@ -252,9 +252,9 @@ export default function ResidentialPlan() {
         x="250"
         y="349"
         textAnchor="middle"
-        fill="white"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
         opacity="0.7"
       >
         Rain Canopy Cover
@@ -264,7 +264,7 @@ export default function ResidentialPlan() {
       <path
         d="M 155 390 Q 155 370 175 370 L 325 370 Q 345 370 345 390 L 345 410 Q 345 420 335 420 L 165 420 Q 155 420 155 410 Z"
         fill="none"
-        stroke="#F59E0B"
+        stroke="#E8A940"
         strokeWidth="1.5"
         strokeDasharray="6 3"
       />
@@ -272,9 +272,9 @@ export default function ResidentialPlan() {
         x="250"
         y="405"
         textAnchor="middle"
-        fill="#D97706"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
       >
         DROP-OFF LOOP
       </text>
@@ -286,15 +286,15 @@ export default function ResidentialPlan() {
         width="290"
         height="200"
         rx="6"
-        fill="#F3F4F6"
-        stroke="#D1D5DB"
+        fill="#111D30"
+        stroke="rgba(0, 212, 180, 0.25)"
         strokeWidth="1"
       />
       <text
         x="585"
         y="90"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
         fontSize="11"
         fontWeight="600"
@@ -305,7 +305,7 @@ export default function ResidentialPlan() {
         x="585"
         y="106"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffffa3"
         fontFamily="Inter, sans-serif"
         fontSize="9"
       >
@@ -314,7 +314,7 @@ export default function ResidentialPlan() {
       {/* Parking rows */}
       {[130, 160, 190, 220].map((y) => (
         <g key={y}>
-          <rect x="465" y={y} width="240" height="14" rx="1" fill="#E5E7EB" />
+          <rect x="465" y={y} width="240" height="14" rx="1" fill="#9ca3af" />
           {[0, 30, 60, 90, 120, 150, 180, 210].map((dx) => (
             <line
               key={dx}
@@ -322,8 +322,8 @@ export default function ResidentialPlan() {
               y1={y}
               x2={465 + dx + 15}
               y2={y + 14}
-              stroke="#D1D5DB"
-              strokeWidth="0.5"
+              stroke="#111D30"
+              strokeWidth="5"
             />
           ))}
         </g>
@@ -336,15 +336,15 @@ export default function ResidentialPlan() {
         width="130"
         height="60"
         rx="4"
-        fill="#E5E7EB"
-        stroke="#D1D5DB"
+        fill="rgba(232, 169, 64, 0.12)"
+        stroke="#E8A940"
         strokeWidth="1"
       />
       <text
         x="505"
         y="325"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
         fontSize="9"
         fontWeight="500"
@@ -355,9 +355,9 @@ export default function ResidentialPlan() {
         x="505"
         y="340"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
       >
         East Entry
       </text>
@@ -368,15 +368,15 @@ export default function ResidentialPlan() {
         width="130"
         height="60"
         rx="4"
-        fill="#E5E7EB"
-        stroke="#D1D5DB"
+        fill="rgba(232, 169, 64, 0.12)"
+        stroke="#E8A940"
         strokeWidth="1"
       />
       <text
         x="665"
         y="325"
         textAnchor="middle"
-        fill="#6B7280"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
         fontSize="9"
         fontWeight="500"
@@ -387,9 +387,9 @@ export default function ResidentialPlan() {
         x="665"
         y="340"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#E8A940"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
       >
         West Entry
       </text>
@@ -401,17 +401,17 @@ export default function ResidentialPlan() {
         width="290"
         height="110"
         rx="6"
-        fill="#DBEAFE"
-        stroke="#93C5FD"
+        fill="rgba(0, 212, 180, 0.08)"
+        stroke="rgba(0, 212, 180, 0.3)"
         strokeWidth="1"
       />
       <text
         x="585"
         y="445"
         textAnchor="middle"
-        fill="#2563EB"
+        fill="#00D4B4"
         fontFamily="Inter, sans-serif"
-        fontSize="10"
+        fontSize="12"
         fontWeight="500"
       >
         LANDSCAPED COURTYARD
@@ -420,9 +420,9 @@ export default function ResidentialPlan() {
         x="585"
         y="462"
         textAnchor="middle"
-        fill="#3B82F6"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
         opacity="0.8"
       >
         Water Feature & Seating
@@ -432,8 +432,8 @@ export default function ResidentialPlan() {
         cy="485"
         rx="30"
         ry="12"
-        fill="#BFDBFE"
-        stroke="#93C5FD"
+        fill="rgba(0, 212, 180, 0.15)"
+        stroke="#00D4B4"
         strokeWidth="0.5"
       />
 
@@ -443,7 +443,7 @@ export default function ResidentialPlan() {
         y1="230"
         x2="440"
         y2="160"
-        stroke="#F59E0B"
+        stroke="#E8A940"
         strokeWidth="1"
         strokeDasharray="4 3"
       />
@@ -452,13 +452,13 @@ export default function ResidentialPlan() {
         y1="230"
         x2="440"
         y2="460"
-        stroke="#F59E0B"
+        stroke="#E8A940"
         strokeWidth="1"
         strokeDasharray="4 3"
       />
 
       {/* Emergency Access Indicators */}
-      {[
+      {/* {[
         { x: 90, y: 280, label: "E" },
         { x: 390, y: 180, label: "E" },
         { x: 250, y: 528, label: "E" },
@@ -478,22 +478,22 @@ export default function ResidentialPlan() {
             textAnchor="middle"
             fill="#DC2626"
             fontFamily="Inter, sans-serif"
-            fontSize="8"
+            fontSize="10"
             fontWeight="600"
           >
             {label}
           </text>
         </g>
-      ))}
+      ))} */}
 
       {/* North Arrow */}
       <g transform="translate(730, 560)">
-        <polygon points="0,-18 -6,0 6,0" fill="#9CA3AF" />
+        <polygon points="0,-18 -6,0 6,0" fill="#ffffff" />
         <text
           x="0"
           y="12"
           textAnchor="middle"
-          fill="#9CA3AF"
+          fill="#ffffff"
           fontFamily="Inter, sans-serif"
           fontSize="9"
           fontWeight="600"
@@ -508,7 +508,7 @@ export default function ResidentialPlan() {
         y1="570"
         x2="180"
         y2="570"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <line
@@ -516,7 +516,7 @@ export default function ResidentialPlan() {
         y1="565"
         x2="80"
         y2="575"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <line
@@ -524,16 +524,16 @@ export default function ResidentialPlan() {
         y1="565"
         x2="180"
         y2="575"
-        stroke="#9CA3AF"
+        stroke="#7A90B0"
         strokeWidth="1"
       />
       <text
         x="130"
         y="582"
         textAnchor="middle"
-        fill="#9CA3AF"
+        fill="#ffffff"
         fontFamily="Inter, sans-serif"
-        fontSize="8"
+        fontSize="10"
       >
         50m
       </text>
